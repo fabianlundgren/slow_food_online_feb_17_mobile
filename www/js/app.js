@@ -48,7 +48,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
      views: {
        'tab-home': {
          templateUrl: 'templates/menus/menu.html',
-         controller: 'MenuController'
+         controller: 'RestaurantController'
        }
      }
    });

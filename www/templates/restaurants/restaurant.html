@@ -3,7 +3,7 @@
     <h1>{{restaurant.name}}</h1>
     <p>About us: {{restaurant.description}}</p>
     <h3>Our Menus</h3>
-    <div class="item" ng-click="navigateToMenu(menu.id)">
+    <div class="item" ng-click="navigateToMenu(restaurant.id)">
       <p>{{restaurant.menu.name}}</p>
     </div>
   </ion-content>
